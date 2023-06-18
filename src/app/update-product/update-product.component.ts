@@ -12,6 +12,7 @@ export class UpdateProductComponent implements OnInit {
   id: number = 0;
   product: any = {};
   isSaved: boolean = false;
+  categories: any[] = [];
 
   constructor(
     private productService: ProductService,
@@ -24,6 +25,19 @@ export class UpdateProductComponent implements OnInit {
   ngOnInit() {
     this.id = this.route.snapshot.params['id'];
     this.getProduct(this.id);
+    this.loadCategories();
+
+  }
+
+  loadCategories() {
+    this.categoryService.getCategories().subscribe(
+      (response: any) => {
+        this.categories = response._embedded.categories;
+      },
+      (error: any) => {
+        console.log(error);
+      }
+    );
   }
 
   getProduct(id: number) {

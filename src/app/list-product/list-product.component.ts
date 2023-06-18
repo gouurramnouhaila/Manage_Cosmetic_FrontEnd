@@ -36,4 +36,17 @@ export class ListProductComponent implements OnInit{
       );
     });
   }
+
+  deleteProduct(productId: number) {
+    if (confirm('Are you sure you want to delete this product?')) {
+      this.productService.deleteProduct(productId).subscribe(
+        () => {
+          this.products = this.products.filter(product => product.id !== productId);
+        },
+        error => {
+          console.error('Error deleting product:', error);
+        }
+      );
+    }
+  }
 }
