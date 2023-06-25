@@ -1,0 +1,21 @@
+<div class="py-5">
+  <div class="container">
+    <div class="row hidden-md-up">
+      <div class="col-md-2 mb-2" style="margin-left: 100px; margin-right: 100px;" *ngFor="let category of categories">
+        <div class="card">
+          <div class="card-block p-5">
+            <h4 class="card-title">{{ category.id }}</h4>
+            <h6 class="card-subtitle text-muted">{{ category.name }}</h6>
+            <p class="card-text p-y-1">{{ category.description }}.</p>
+            <div style="display: flex">
+              <a [routerLink]="'/create-category/'" class="btn btn-dark mr-10">add</a>
+              <a [routerLink]="'/update-category/' + category.id" class="btn btn-dark">edit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+
+

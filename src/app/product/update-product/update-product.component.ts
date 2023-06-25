@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductService } from '../service/product/product.service';
+import { ProductService } from '../../service/product/product.service';
 import { ActivatedRoute, Router } from '@angular/router';
-import {CategoryService} from "../service/category/category.service";
+import {CategoryService} from "../../service/category/category.service";
 
 @Component({
   selector: 'app-update-product',
@@ -62,7 +62,7 @@ export class UpdateProductComponent implements OnInit {
         response => {
           console.log(response);
           this.isSaved = true;
-          alert('Le produit a été modifié avec succès.');
+          alert('The product is modified with success.');
           this.router.navigate(['/products']);
         },
         error => {

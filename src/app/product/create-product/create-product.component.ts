@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import {ProductService} from "../service/product/product.service";
-import {CategoryService} from "../service/category/category.service";
+import {ProductService} from "../../service/product/product.service";
+import {CategoryService} from "../../service/category/category.service";
 
 @Component({
   selector: 'app-create-product',
