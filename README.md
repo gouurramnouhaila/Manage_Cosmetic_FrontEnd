@@ -1,3 +1,5 @@
+![Capture d’écran 2023-06-18 à 14 48 36](https://github.com/gouurramnouhaila/Manage_Cosmetic_FrontEnd/assets/76429221/a6cc4ee1-aa71-472b-92cf-d7b7d7f5b08e)
+![Uploading Capture d’écran 2023-06-18 à 14.43.46.png…]()
 ![Capture d’écran 2023-06-18 à 14 51 43](https://github.com/gouurramnouhaila/Manage_Cosmetic_FrontEnd/assets/76429221/fdb13798-05b3-4df8-bfe3-ff53d95e79e2)
 # ManageCosmeticFrontend
 
