@@ -1,6 +1,9 @@
+![Capture d’écran 2023-06-18 à 14 51 43](https://github.com/gouurramnouhaila/Manage_Cosmetic_FrontEnd/assets/76429221/fdb13798-05b3-4df8-bfe3-ff53d95e79e2)
 # ManageCosmeticFrontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.![Uploading Capture d’écran 2023-06-18 à 14.48.36.png…]()
+![Uploading Capture d’écran 2023-06-18 à 14.43.46.png…]()
+
 
 ## Development server
 
